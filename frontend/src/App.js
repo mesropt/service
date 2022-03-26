@@ -12,28 +12,8 @@ class App extends React.Component {
     }
   }
 
-//   componentDidMount() {
-//   const authors = [
-//     {
-//       'first_name': 'Федор',
-//       'last_name': 'Достоевский',
-//       'birthday_year': '1821',
-//     },
-//     {
-//       'first_name': 'Александр',
-//       'last_name': 'Грин',
-//       'birthday_year': '1880',
-//     },
-//   ]
-//   this.setState(
-//       {
-//         'authors': authors
-//       }
-//   )
-// }
-
   componentDidMount() {
-      axios.get('http://127.0.0.1:8000/api/users')
+      axios.get('http://127.0.0.1:8000/api/users/')
           .then(response => {
             const users = response.data
                 this.setState(
