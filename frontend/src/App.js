@@ -3,8 +3,8 @@ import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
 import UserList from './components/User.js'
-import FooterList from './components/Footer.js'
-import MenuList from './components/Menu.js'
+import FooterItem from './components/Footer.js'
+import MenuItem from './components/Menu.js'
 
 // App.js - это главный компонент
 class App extends React.Component {
