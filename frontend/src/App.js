@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import UserList from './components/User.js'
 
+// App.js - это главный компонент
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -33,4 +34,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default App; // чтобы APP был доступен в других частях программы
